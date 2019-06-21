@@ -5,11 +5,17 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java/org/apache/beam/examples/CoreTransforms/ParDo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java/org/apache/beam/examples/CompositeTransforms" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.apache.beam:beam-sdks-java-core:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.beam:beam-model-pipeline:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.beam:beam-model-job-management:2.13.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.beam:beam-sdks-java-core:2.13.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.beam:beam-model-pipeline:2.13.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.1.2" level="project" />
